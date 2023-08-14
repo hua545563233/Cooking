@@ -1,6 +1,7 @@
 module.exports = {
   title: '做道菜',
   description: 'Just playing around',
+  base: 'Cooking',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
