@@ -1,6 +1,6 @@
 module.exports = {
   title: '做道菜',
-  description: 'Just playing around',
+  description: 'cook a dish',
   base: '/Cooking/',
   configureWebpack: {
     resolve: {
@@ -23,15 +23,6 @@ module.exports = {
         ['ziranyangrou', '孜然羊肉'],
         ['yangcongfeiniu', '洋葱肥牛'],
       ]
-    },
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/hua545563233' }
-    ],
-
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present liu zhihua'
     }
   }
 }
