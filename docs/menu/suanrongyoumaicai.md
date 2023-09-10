@@ -2,7 +2,7 @@
 {
 author: 刘志华,
 title: 蒜蓉油麦菜,
-date: 2023/08/17,
+date: 2023/09/10,
 lang: ZH-CN,
 }
 ---
