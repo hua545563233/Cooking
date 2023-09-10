@@ -23,6 +23,8 @@ module.exports = {
         ['ziranyangrou', '孜然羊肉'],
         ['yangcongfeiniu', '洋葱肥牛'],
         ['hongshaorou', '红烧肉'],
+        ['suanlatudousi', '酸辣土豆丝'],
+        ['suanrongyoumaicai', '蒜蓉油麦菜'],
       ]
     }
   }
