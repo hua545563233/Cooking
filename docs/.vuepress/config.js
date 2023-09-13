@@ -1,3 +1,5 @@
+const menuBar = require('../menu/index.js')
+
 module.exports = {
   title: '做道菜',
   description: 'cook a dish',
@@ -16,16 +18,7 @@ module.exports = {
       { text: '菜谱', link: '/menu/dapanji', activeMatch: '^/menu/' }
     ],
     sidebar:{
-      '/menu/': [
-        ['dapanji', '大盘鸡'],
-        ['suantangsurou', '酸汤酥肉'],
-        ['yuxiangrousi', '鱼香肉丝'],
-        ['ziranyangrou', '孜然羊肉'],
-        ['yangcongfeiniu', '洋葱肥牛'],
-        ['hongshaorou', '红烧肉'],
-        ['suanlatudousi', '酸辣土豆丝'],
-        ['suanrongyoumaicai', '蒜蓉油麦菜'],
-      ]
+      ...menuBar
     }
   }
 }
