@@ -12,6 +12,7 @@ const maps = {
   'suanrongyoumaicai': '蒜蓉油麦菜',
   'guobaroupian': '锅巴肉片',
   'jiangniurou': '酱牛肉',
+  'chayedan': '茶叶蛋',
 }
 
 const data = fs.readdirSync('./docs/menu')
